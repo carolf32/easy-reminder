@@ -79,3 +79,9 @@ cd frontend && npm run dev
 ### Emergency 
 - ``` POST /api/sos/trigger ``` - Trigger emergency alert
 - ``` GET /api/sos/history``` - Get SOS history
+
+
+
+https://github.com/user-attachments/assets/ffdf5cff-9e88-40ae-a04c-2d7780829299
+
+

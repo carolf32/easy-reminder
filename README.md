@@ -1,7 +1,7 @@
 # Easy Reminder 
 A smart reminder application with accessibility features and emergency functionality.
 ## About the project 
-Easy Reminder is a web application designed to help users efficiently manage their reminders, with a focus on accessibility and safety. The system includes emergency alert features and font size adjustments for better user experience.
+Easy Reminder is a web application designed to help users efficiently manage their reminders, with a focus on accessibility and safety. The system includes emergency alert features with SMS notifications including user's location and font size adjustments for better user experience.
 ## Features 
 ### Smart Reminders 
 - Categorization: Organize reminders by categories (Medication, Appointments, Tasks, etc.)
@@ -14,7 +14,7 @@ Easy Reminder is a web application designed to help users efficiently manage the
 - Intuitive navigation: Simplified flow for all users
 
 ### Emergency button
-- SOS button: Quick alert in emergency situations
+- SOS button: Quick alert in emergency situations via Twilio
 - Location: Automatic coordinates sending (optional)
 - Emergency contact: Register contacts for notification
 
@@ -33,6 +33,7 @@ Easy Reminder is a web application designed to help users efficiently manage the
 - PostgreSQL - Database system
 - JWT - Authentication tokens
 - Zod - Schema validation
+- Twilio - SMS notification service
 
 ## Getting started - installation
 ### Clone the repository
@@ -80,6 +81,11 @@ cd frontend && npm run dev
 - ``` POST /api/sos/trigger ``` - Trigger emergency alert
 - ``` GET /api/sos/history``` - Get SOS history
 
+## Twilio SMS integration 
+The application integrates with Twilio to send emergency SMS notifications:
+### Features 
+- Instant alerts: Sends immediate SMS to registered emergency contact
+- Location info: Includes user's location in emergency messages
 
 
 https://github.com/user-attachments/assets/ffdf5cff-9e88-40ae-a04c-2d7780829299

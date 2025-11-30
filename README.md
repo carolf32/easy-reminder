@@ -1,7 +1,7 @@
 # Easy Reminder 
 A smart reminder application with accessibility features and emergency functionality.
 ## About the project 
-Easy Reminder is a web application designed to help users efficiently manage their reminders, with a focus on accessibility and safety. The system includes emergency alert features with SMS notifications including user's location and font size adjustments for better user experience.
+Easy Reminder is a web application designed to help elderly users efficiently manage their reminders, with a focus on accessibility and safety. The system includes emergency alert features with SMS notifications including user's location and font size adjustments for better user experience.
 ## Features 
 ### Smart Reminders 
 - Categorization: Organize reminders by categories (Medication, Appointments, Tasks, etc.)
